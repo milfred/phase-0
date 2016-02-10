@@ -29,3 +29,18 @@ Since this course is intended to give a beginner the essential basics, most of t
   - help: view a list of commands and their definitions (can be used to look up specific commands using this syntax help CMDNAME)
 
 ##1.4 Forking and Cloning
+
+To create a new repository:
+- Login to your GitHub account
+- On your profile page, click the “+” icon next to your avatar at the top right of the page and select “New repository”
+- Enter a repository name, choose “Public” or “Private” depending upon your needs
+- Choose a license if necessary and click “Create repository” (see this website for more information about licenses: http://choosealicense.com/)
+To fork a repository:
+- Go to the repository page on GitHub and click on the fork icon
+- Choose what account to fork the repository to and you’re done
+To clone a repository to your local machine:
+- Go to the repository page on GitHub and copy the repository url
+- Open the terminal and navigate to the directory you want to clone the repository to
+- Type “git clone http://PASTE-REPO-URL” into the terminal and hit enter
+A developer might fork a repository if they disagree about what direction a project should take or just want to try different things with the project for fun. In the case of Dev Bootcamp, providing repositories for students to fork and work on is a good way to distribute coding challenges for educational purposes.
+Setting up git and GitHub initially went fine for me. While I was practicing creating and cloning repositories I couldn’t figure out how to delete the .git directory from the terminal.
