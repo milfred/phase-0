@@ -16,10 +16,10 @@ The three states of a git change are:
 Write a handy cheatsheet of the commands you need to commit your changes.
 Starting from the beginning you would need the following commands:
   - git checkout -b NEW-BRANCH-NAME (this creates a new branch for your working files and switches you to that new branch)
-  - git status (check the status of )
+  - git status (check the status of your changes on the current commit)
   - git add FILE-NAME or DIRECTORY (adds changed file or files to the commit)
   - git commit -m "commit message" (commits changes and adds commit message)
 What is a pull request and how do you create and merge one?
 To create a pull request, make sure you have pushed your branch to the repository on GitHub. You then initiate a pull request on GitHub. After you create the pull request, GitHub will then prompt you to merge your branch with the master.
 Why are pull requests preferred when working with teams?
-Using pull requests gives another developer the oppotunity to review the your code before it is merged. This allows the master branch to always be a clean and working version.
+Using pull requests gives another developer the opportunity to review your code before it is merged. This allows the master branch to always be a clean and working version.
