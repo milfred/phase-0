@@ -26,7 +26,7 @@ Starting from the beginning you would need the following commands:
   - git commit -m "commit message" (commits changes and adds commit message)
 
 ##What is a pull request and how do you create and merge one?
-To create a pull request, make sure you have pushed your branch to the repository on GitHub. You then initiate a pull request on GitHub. After you create the pull request, GitHub will then prompt you to merge your branch with the master.
+To create a pull request, make sure you have pushed your branch to the repository on GitHub. You then initiate a pull request on GitHub. After you create the pull request, GitHub will then prompt you to merge your branch with the master. It's best practice to delete your feature branch after the merge to keep the project clean.
 
 ##Why are pull requests preferred when working with teams?
 Using pull requests gives another developer the opportunity to review your code before it is merged. This allows the master branch to always be a clean and working version.
