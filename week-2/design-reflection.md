@@ -1,6 +1,6 @@
 #Reflection for 2.3 Introduction to Design and Site Planning
 
-![Sitemap for Personal Website](../week-2/imgs/sitemap.png)
+![Sitemap for Personal Website](imgs/sitemap.png)
 
 ##What are the 6 Phases of Web Design?
   - **Information Gathering.** This is probably the most important phase. If you don't know what your client's goals are or who the audience is, you might end up with an attractive website, but it likely won't speak to your users.
