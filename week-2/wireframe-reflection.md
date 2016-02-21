@@ -4,7 +4,7 @@
 A wireframe is like a blueprint for a screen or web page design. It is an initial version of your design that is stripped of details like color.
 
 ##What are the benefits of wireframing?
-A wireframe allows you to experiment with your basic design elements more quickly. If you decide a layout isn't working you can always try another. It's also helpful to view the information hierarchy of your elements and make sure you're emphasizing what is most important and developing a natural flow to your layout and navigation. It also gives you a basis to begin coding because the base elements of the page are already there.
+A wireframe allows you to experiment with your basic design elements more quickly. If you decide a layout isn't working you can always try another. It's also helpful to view the information hierarchy of your elements and make sure you're emphasizing what is most important and developing a natural flow to your layout and navigation. It also gives you a basis to begin coding because the major elements of the page are already there.
 
 ##Did you enjoy wireframing your site?
 It was a very good exercise for me. I enjoyed the result and what I learned from it. I usually want to jump right in and start designing more complex elements, but that usually leads to a less cohesive design. It was good to walk through this process and see how helpful it can be.
