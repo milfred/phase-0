@@ -13,10 +13,10 @@ It was a very good exercise for me. I enjoyed the result and what I learned from
 I revised it three times.
 
 **What questions did you ask during this challenge? What resources did you find to help you answer them?**
-After reading through the information in release 0 I wanted to see some examples of similar websites. There a ton of blog articles out there on sites like [Mashable](http://www.mashable.com) and [Onextrapixel](http://www.onextrapixel.com) that have good examples. I also wondered what the optimal width would be for my website. There are many different opinions out there, but in the end I opted for 960 pixels since it has been the standard for awhile now. I also wondered what the best way to start would be for me. I liked this article about using thumbnail sketches as a starting point on [designshack.net](http://designshack.net/articles/inspiration/close-photoshop-and-grab-a-pencil-the-lost-art-of-thumbnail-sketches/).
+After reading through the information in release 0 I wanted to see some examples of similar websites. There a ton of blog articles out there on sites like [Mashable](http://www.mashable.com) and [Onextrapixel](http://www.onextrapixel.com) that have good examples. I also wondered what the optimal width would be for my website. There are many different opinions, but in the end I opted for 960 pixels since it has been the standard for awhile now. I also wondered what the best way to start wireframing would be for me. I found this article about using thumbnail sketches as a starting point on [designshack.net](http://designshack.net/articles/inspiration/close-photoshop-and-grab-a-pencil-the-lost-art-of-thumbnail-sketches/)and it seemed like a good way to get a number of ideas out quickly.
 
 **Which parts of the challenge did you enjoy and which parts did you find tedious?**
-I enjoyed the process of learning to consider basic information hierarchy and flow first. I haven't really done any wireframing before though, so even though I used Balsamiq, there was a bit of a learning curve with the tool that can be frustrating.
+I enjoyed the process of learning to consider basic information hierarchy and flow first. I haven't really done any wireframing before though, so even though I used Balsamiq, there was a bit of a learning curve with a new tool that can be frustrating.
 
 ![Index Wireframe](imgs/wireframe-index.png)
 
