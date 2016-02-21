@@ -18,6 +18,8 @@ After reading through the information in release 0 I wanted to see some examples
 ##Which parts of the challenge did you enjoy and which parts did you find tedious?
 I enjoyed the process of learning to consider basic information hierarchy and flow first. I haven't really done any wireframing before though, so even though I used Balsamiq, there was a bit of a learning curve with a new tool that can be frustrating.
 
+**index**
 ![Index Wireframe](imgs/wireframe-index.png)
 
+**blog/index**
 ![Blog Index Wireframe](imgs/wireframe-blog-index.png)
