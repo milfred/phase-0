@@ -42,3 +42,9 @@ Variables allow you to assign a name to an object like a string and then reuse t
 
 **How was this challenge? Did you get a good review of some of the basics?**
 It was a good review. I was overthinking some of the excercises and that slowed me down, but ultimately I got everything working and realized the solution was actually pretty
+
+##Links To Exercise Files
+
+[Simple String](https://github.com/milfred/phase-0/blob/master/week-4/simple-string.rb)
+[Basic Math](https://github.com/milfred/phase-0/blob/master/week-4/basic-math.rb)
+[Defining Variables](https://github.com/milfred/phase-0/blob/master/week-4/defining-variables.rb)
