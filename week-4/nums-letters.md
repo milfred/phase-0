@@ -15,14 +15,14 @@ If you divide two integers the output will always be a whole number rounded down
 ##Release 2: Try it!
 
 **How many hours in a year program**
-'''
+```
 puts 24 * 365
-'''
+```
 
 **How many minutes in a decade** (not including leap years)
-'''
+```
 puts ((24 * 60) * 365) * 10
-'''
+```
 
 ##Release 7: Reflect
 **How does Ruby handle addition, subtraction, multiplication, and division of numbers?**
@@ -41,4 +41,4 @@ A string is a group of letters. You would use strings when you want to print or 
 Variables allow you to assign a name to an object like a string and then reuse that object in your code using the assigned name. Variables save time when your programming because you don't have to write out a string every time you want to use it. It also keeps your code cleaner.
 
 **How was this challenge? Did you get a good review of some of the basics?**
-It was a good review. I was overthinking some of the excercises and that slowed me down, but ultimately I got everything working and realized the solution was actually pretty simple.
+It was a good review. I was overthinking some of the excercises and that slowed me down, but ultimately I got everything working and realized the solution was actually pretty
