@@ -5,16 +5,16 @@
 
 # Your Solution Below
 
-def get_grade (x)
-  if x <= 59
+def get_grade (grade)
+  if grade <= 59
   return "F"
-  elsif x > 59 && x < 70
+  elsif grade > 59 && grade < 70
   return "D"
-  elsif x > 69 && x < 80
+  elsif grade > 69 && grade < 80
   return "C"
-  elsif x > 79 && x < 90
+  elsif grade > 79 && grade < 90
   return "B"
-  elsif x > 89 && x <= 100
+  elsif grade > 89 && grade <= 100
   return "A"
   else
   return "Invalid Grade"
