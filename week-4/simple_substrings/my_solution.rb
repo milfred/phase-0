@@ -7,9 +7,9 @@
 
 def welcome(address)
   if address.include?('CA') == true
-    return 'Welcome to Califonia'
+    return 'Welcome to California'
   else
-    return 'You should move to Califonia'
+    return 'You should move to California'
   end
 end
 
