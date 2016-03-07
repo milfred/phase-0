@@ -6,7 +6,7 @@
 # Your Solution Below
 
 def welcome(address)
-  if address.include?('CA') == true
+  if address.include?(' CA') == true
     return 'Welcome to California'
   else
     return 'You should move to California'
