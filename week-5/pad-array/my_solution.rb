@@ -1,8 +1,8 @@
 # Pad an Array
 
-# I worked on this challenge with: Alicia
+# I worked on this challenge with: Alicia Briceland
 
-# I spent [] hours on this challenge.
+# I spent 2.5 hours on this challenge.
 
 
 # Complete each step below according to the challenge directions and
@@ -19,18 +19,46 @@
 
 # Create destructive method
 # 1. Create an empty method that takes three arguments and set the value argument equal to nil
-# 2. Determine the array size (number of objects in the array)
-# 3. Create a loop that will add a number of nil values to the array equal to the remainder of the minimum size minus the array size
-# 5. Return the array with padding
+# 2. Determine a variable equal to the number of objects in the array
+# 3. Push remainder number of values to the end of the original array
+# 4. Return the array with padding
 
 # Create non-destructive method
 # 1. Create an empty method that takes three arguments and set the value argument equal to nil
 # 2. Define a new variable to store the new array to
-# 3. Determine the array size (number of objects in the array)
-# 4. Create a loop that will add a number of nil values to the array equal to the remainder of the minimum size minus the array size
+# 3. Determine a variable equal to the number of objects in the array
+# 4. Push remainder number of values to the end of the new array
 # 5. Return the new array
 
 # 1. Initial Solution
+
+# def pad!(array, min_size, value = nil) #destructive
+#   while array.count <= min_size
+#     array << value
+#     if array = min_size
+#       break
+#     end
+#   end
+# end
+
+# def pad(array, min_size, value = nil) #non-destructive
+#   new_array = array.clone
+
+#   while array.count <= min_size
+#     new_array << value
+#     if array = min_size
+#       break
+#     end
+#   end
+#   new_array
+# end
+
+
+# puts pad!([1,2,3], 5, nil)
+# puts pad([1,2,3], 5, nil)
+
+
+# 3. Refactored Solution
 
 def pad!(array, min_size, value = nil) #destructive
  array_size = array.size
@@ -54,10 +82,5 @@ end
 
 puts pad!([1,2,3], 5, nil)
 puts pad([1,2,3], 5, nil)
-
-
-# 3. Refactored Solution
-
-
 
 # 4. Reflection
