@@ -5,6 +5,67 @@
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
 
+# Person 1's solution
+# def my_array_finding_method(source, thing_to_find)
+#   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# end
+
+# def my_hash_finding_method(source, thing_to_find)
+#   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# end
+
+# Identify and describe the Ruby method(s) you implemented.
+#
+#
+#
+
+# Person 2
+# def my_array_modification_method!(source, thing_to_modify)
+#   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# end
+
+# def my_hash_modification_method!(source, thing_to_modify)
+#   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# end
+
+# Identify and describe the Ruby method(s) you implemented.
+#
+#
+#
+
+
+# Person 3
+# def my_array_sorting_method(source)
+#   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# end
+
+# def my_hash_sorting_method(source)
+#    source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# end
+
+# Identify and describe the Ruby method(s) you implemented.
+#
+#
+#
+
+
+# Person 4
+# def my_array_deletion_method!(source, thing_to_delete)
+#   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# end
+
+# def my_hash_deletion_method!(source, thing_to_delete)
+#   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# end
+
+# Identify and describe the Ruby method(s) you implemented.
+#
+#
+#
+
+
+# Person 5
+
 # Method to split an array into two arrays
 # Input: An array that may contain both strings and integers
 # Output: Two arrays nested inside another array. One will contain all of the integers from the original array. The other will contain all of the other values.
@@ -23,8 +84,6 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 # 3. Store both of the arrays in a new array
 # 4. Return the new array
 
-
-# Person 5
 def my_array_splitting_method(source)
   integer_sorted_array = source.partition { |obj| obj.is_a? Integer }
 end
