@@ -29,38 +29,33 @@ def my_array_splitting_method(source)
   integer_array = source.grep(Integer)
   string_array = source.grep(String)
   new_array = [integer_array, string_array]
-  return new_array
 end
 
 print my_array_splitting_method(i_want_pets)
 
-def my_hash_splitting_method(source, age)
-
-end
-
-print my_hash_splitting_method(my_family_pets_ages)
-
-
-# def my_hash_splitting_method(source)
+# def my_hash_splitting_method(source, age = 4)
 #   young_pets = []
 #   old_pets = []
 #   source.each do |key, value|
-#     if value <= 4
+#     if value <= age
 #       young_pets << [key, value]
 #     else
 #       old_pets << [key, value]
 #     end
 #   end
 #   new_array = [young_pets, old_pets]
-#   return new_array
 # end
 
-# print my_hash_splitting_method(my_family_pets_ages)
+def my_hash_splitting_method(source, age = 4)
+  age_sorted_pets = source.partition { |key, value| value <= age }
+end
+
+print my_hash_splitting_method(my_family_pets_ages)
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+# I used grep for the array splitting method and partition for the hash splitting method.
+# Grep
+# Partition returns two arrays. The first one will contain the values that evaluate to true given the specified by the block. The secon will contain everything else.
 
 
 # Release 1: Identify and describe the Ruby method you implemented. Teach your
