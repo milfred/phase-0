@@ -1,6 +1,6 @@
 # Research Methods
 
-# I spent [] hours on this challenge.
+# I spent 2 hours on this challenge.
 
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
@@ -14,7 +14,7 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 # 3. Store the two new arrays nested inside a new array
 # 4. Return the new array
 
-# Method to split a hash two arrays
+# Method to split a hash into two arrays
 # Input: A hash that contains a list of dog names and the dog's age
 # Output: Two arrays nested inside another array. One will contain all of the pets that are four years old or younger. The other will contain all of the other pets.
 # Steps to product the correct outcome:
@@ -26,48 +26,32 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 
 # Person 5
 def my_array_splitting_method(source)
-  integer_array = source.grep(Integer)
-  string_array = source.grep(String)
-  new_array = [integer_array, string_array]
+  integer_sorted_array = source.partition { |obj| obj.is_a? Integer }
 end
 
 print my_array_splitting_method(i_want_pets)
 
-# def my_hash_splitting_method(source, age = 4)
-#   young_pets = []
-#   old_pets = []
-#   source.each do |key, value|
-#     if value <= age
-#       young_pets << [key, value]
-#     else
-#       old_pets << [key, value]
-#     end
-#   end
-#   new_array = [young_pets, old_pets]
-# end
-
 def my_hash_splitting_method(source, age = 4)
-  age_sorted_pets = source.partition { |key, value| value <= age }
+  age_sorted_pet_array = source.partition { |key, value| value <= age }
 end
 
 print my_hash_splitting_method(my_family_pets_ages)
 
+
 # Identify and describe the Ruby method(s) you implemented.
-# I used grep for the array splitting method and partition for the hash splitting method.
-# Grep
-# Partition returns two arrays. The first one will contain the values that evaluate to true given the specified by the block. The secon will contain everything else.
+# Partition returns two arrays inside of another array. The first one will contain the values that evaluate to true given the specified by the block. The secon will contain everything else. I played around with grep, but it wasn't as efficient as partition and, while it passed rspec, my method using grep was only splitting out integers and strings rather than integers and everything else.
 
 
 # Release 1: Identify and describe the Ruby method you implemented. Teach your
 # accountability group how to use the methods.
-#
-#
-#
+# As I described above, the partition enumberable splits a collection into two arrays  based on a block of code that evaluates to true or false. Anything in the collection that returns a true value will be split into one array. Everthing else will go in the other array.
+# The syntax looks like this:
+# collection = [87, 55, 12, 8, 105.5]
+# collection.partition { |obj| obj >= 55 }
+# => [[87, 55, 105.5], [12, 8]]
+
 
 
 # Release 3: Reflect!
 # What did you learn about researching and explaining your research to others?
-#
-#
-#
-#
+# When we started with Ruby last week, I looked at the docs and my first thought was "a Google search must be easier." But I've found that to be untrue. There are so many pages out there that are kind of close to what you want, but don't work for the problem you're trying to solve. It worked so much better for me to follow the advice from the "Ruby Docs for Newbs" article and check the docs, try them in irb, and then try them in my code.
