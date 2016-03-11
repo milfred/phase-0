@@ -72,21 +72,11 @@
 #       result_array << x
 #     end
 
-
-
 #   end
 #   puts "results #{result_array}"
 #   return result_array
 
-
-
-
-
 #   puts numbers
-
-
-
-
 
 # end
 
@@ -100,18 +90,13 @@
 def mode(numbers)
 
   new_numbers = {} #initialize hash to handle the input
-
   max_num = 0 #to count frequency
-
   result_array = [] #result array of most frequent values
-
   numbers.each do |x|
-
     if (new_numbers.has_key?(x))
       new_numbers[x] += 1
     else
       new_numbers.store(x, 1)
-
     end
   end
 
