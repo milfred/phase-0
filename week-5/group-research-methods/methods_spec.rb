@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require_relative "my_solution"
 
 # PERSON 1: FIND MATCHING DATA
@@ -108,6 +109,11 @@ describe 'PERSON 4: my_hash_deletion_method!' do
   end
 
 end
+=======
+
+require_relative "my_solution"
+
+>>>>>>> master
 
 # PERSON 5: SPLIT DATA
 describe 'PERSON 5: my_array_splitting_method' do
