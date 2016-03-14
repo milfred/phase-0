@@ -1,11 +1,13 @@
 # Research Methods
 
+
 # I spent 2 hours on this challenge.
 
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
 
 # Person 1's solution
+
 # def my_array_finding_method(source, thing_to_find)
 #   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
 # end
@@ -14,12 +16,14 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 #   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
 # end
 
+
 # Identify and describe the Ruby method(s) you implemented.
 #
 #
 #
 
 # Person 2
+
 # def my_array_modification_method!(source, thing_to_modify)
 #   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
 # end
@@ -28,6 +32,7 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 #   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
 # end
 
+
 # Identify and describe the Ruby method(s) you implemented.
 #
 #
@@ -35,6 +40,7 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 
 
 # Person 3
+
 # def my_array_sorting_method(source)
 #   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
 # end
@@ -43,6 +49,7 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 #    source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
 # end
 
+
 # Identify and describe the Ruby method(s) you implemented.
 #
 #
@@ -50,6 +57,7 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 
 
 # Person 4
+
 # def my_array_deletion_method!(source, thing_to_delete)
 #   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
 # end
@@ -101,14 +109,13 @@ print my_hash_splitting_method(my_family_pets_ages)
 # Partition returns two arrays inside of another array. The first one will contain the values that evaluate to true given the specified by the block. The secon will contain everything else. I played around with grep, but it wasn't as efficient as partition and, while it passed rspec, my method using grep was only splitting out integers and strings rather than integers and everything else.
 
 
-# Release 1: Identify and describe the Ruby method you implemented. Teach your
-# accountability group how to use the methods.
+
+# Release 1: Identify and describe the Ruby method you implemented. Teach your accountability group how to use the methods.
 # As I described above, the partition enumberable splits a collection into two arrays  based on a block of code that evaluates to true or false. Anything in the collection that returns a true value will be split into one array. Everthing else will go in the other array.
 # The syntax looks like this:
 # collection = [87, 55, 12, 8, 105.5]
 # collection.partition { |obj| obj >= 55 }
 # => [[87, 55, 105.5], [12, 8]]
-
 
 
 # Release 3: Reflect!

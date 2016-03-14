@@ -19,20 +19,50 @@
 
 # Create destructive method
 # 1. Create an empty method that takes three arguments and set the value argument equal to nil
+<<<<<<< HEAD
+# 2. Determine a variable equal to the number of objects in the array
+# 3. Push remainder number of values to the end of the original array
+=======
 # 2. Create a variable equal to the number of objects in the array
 # 3. Push remainder number of values to the end of the array
+>>>>>>> master
 # 4. Return the array with padding
 
 # Create non-destructive method
 # 1. Create an empty method that takes three arguments and set the value argument equal to nil
+<<<<<<< HEAD
+# 2. Define a new variable to store the new array to
+# 3. Determine a variable equal to the number of objects in the array
+=======
 # 2. Determine a variable equal to the number of objects in the array
 # 3. Create a variable equal to the number of objects in the array
+>>>>>>> master
 # 4. Push remainder number of values to the end of the new array
 # 5. Return the new array
 
 # 1. Initial Solution
 
 # def pad!(array, min_size, value = nil) #destructive
+<<<<<<< HEAD
+#   while array.count <= min_size
+#     array << value
+#     if array = min_size
+#       break
+#     end
+#   end
+# end
+
+# def pad(array, min_size, value = nil) #non-destructive
+#   new_array = array.clone
+
+#   while array.count <= min_size
+#     new_array << value
+#     if array = min_size
+#       break
+#     end
+#   end
+#   new_array
+=======
 #  until array.size >= min_size
 #    array << value
 #  end
@@ -45,12 +75,17 @@
 #    array << value
 #  end
 #  return new_array
+>>>>>>> master
 # end
 
 
 # puts pad!([1,2,3], 5, nil)
 # puts pad([1,2,3], 5, nil)
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 # 3. Refactored Solution
 
 def pad!(array, min_size, value = nil) #destructive
@@ -76,6 +111,9 @@ end
 puts pad!([1,2,3], 5, nil)
 puts pad([1,2,3], 5, nil)
 
+<<<<<<< HEAD
+# 4. Reflection
+=======
 # 4. Reflection
 
 # Were you successful in breaking the problem down into small steps?
@@ -127,3 +165,4 @@ puts pad([1,2,3], 5, nil)
 
 # What is the difference between destructive and non-destructive methods in your own words?
 # A destructive method alters the original variable. A non-destructive method leaves the variable in it's original state and creates a new one.
+>>>>>>> master
