@@ -72,21 +72,11 @@
 #       result_array << x
 #     end
 
-
-
 #   end
 #   puts "results #{result_array}"
 #   return result_array
 
-
-
-
-
 #   puts numbers
-
-
-
-
 
 # end
 
@@ -99,6 +89,7 @@
 
 # def mode(numbers)
 
+<<<<<<< HEAD
 #   new_numbers = {} #initialize hash to handle the input
 
 #   max_num = 0 #to count frequency

@@ -12,6 +12,8 @@ def factorial(number)
   end
   # 5 * 4 * 3 * 2 * 1 = 120
 
+
+  end
   answer = number
   while number > 1
     answer = answer * (number -1)
