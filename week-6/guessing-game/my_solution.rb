@@ -89,13 +89,15 @@ puts game.solved?
 
 
 # Reflection
-# How do instance variables and methods represent the characteristics and behaviors (actions) of a real-world object?
 
+# How do instance variables and methods represent the characteristics and behaviors (actions) of a real-world object?
+# I think that in general, a method is representative of an action and a variable represents a thing. In this assignment it is a bit harder to see because a word like guess can be both a verb and a noun. So the method "guess" is the act of guessing and the variable @guess is the actual guess itself. In this case the guess takes the form of a number which is why I chose that label for the argument being passed to the guess method.
 
 # When should you use instance variables? What do they do for you?
-
+# You should use instance variables when you want the information in a variable to be available outside of it's current context. For example, if you want to variable data to be used in multiple methods within the same class.
 
 # Explain how to use flow control. Did you have any trouble using it in this challenge? If so, what did you struggle with?
-
+# Flow control is how you control branching in your code. In this case I used an if statement to control the flow of the program and return one of three different values for the guess method.
 
 # Why do you think this code requires you to return symbols? What are the benefits of using symbols?
+# Since the program runs if I use either strings or symbols, I would assume we're using it for two reasons. First, the values we used strings for don't need to be manipulated in any way, so it's okay to use a symbol. Even if we did want to manipulate them, we could use the .to_s method to convert them to strings. Second, it's not as big an issue in this simple program, but using symbols can improve performance. A symbol is unique, so it will always have the same numerical representation. Every string, even if it has the same value (i.e. "my value"), has a separate numerical representation which uses more memory. In fact, I did test the program both ways and the one with symbols finished in 0.0s and the version with strings finished in 0.1s. Not really a big difference, but for a larger program it could be significant.
