@@ -131,9 +131,18 @@ print startup_names
 #Reflect
 
 # What are some general rules you can apply to nested arrays?
-# You can access values in nested arrays by stacking indexes after the variable name (e.g. variable[0][1][6]).
+# Nested arrays are arrays that are objects inside another array. You can access values in nested arrays by chaining index call methods after the variable name (e.g. variable[0][1][6]). Nested arrays are a good way to store related data.
 
 # What are some ways you can iterate over nested arrays?
+# You can iterate over nested arrays, by "nesting" iteration methods.
 
+# array = [[1, 2][3, 4]]
+# array.each do |a|
+#   a.each do |i|
+#     print i
+#   end
+# end
+# => 1234
 
 # Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+# We ended up using the map! method which I was somewhat familiar with. We used it mainly because we needed to return the iterated value and the instuction to "modify" the array implied it should be a destructive method.
