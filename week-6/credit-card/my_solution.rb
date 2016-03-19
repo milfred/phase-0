@@ -69,6 +69,7 @@
 
 class CreditCard
 
+# Initialize class and add ArguementError
   def initialize(number)
     @number = number
     if number.to_s.length != 16
@@ -76,10 +77,12 @@ class CreditCard
     end
   end
 
+# Split number into individual integers in an array
   def auth_splitter
     @array_of_digits = @number.to_s.split("").map { |x| x.to_i}
   end
 
+# Double every other number starting with the first digit and ending with the second to last
   def auth_doubler
       @doubled_array = @array_of_digits.each_with_index.map do |value, index|
         if index.even?
@@ -90,15 +93,18 @@ class CreditCard
       end
   end
 
+# Separate two digit numbers ("10" becomes "1" and "0") and sum all numbers in the array
   def sum_digits
     @split_array = @doubled_array.join.to_s.split("").map{|string| string.to_i}
     @split_and_summed = @split_array.inject(0){|sum, x| sum + x}
   end
 
+# Check to see if the sum is a multiple of 10
   def mult_of_ten?
     @split_and_summed % 10 == 0
   end
 
+# Put all methods together to check credit card authentication
   def check_card
     auth_splitter
     auth_doubler
