@@ -5,12 +5,10 @@
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
-
+var secretNumber = 7
+var password = "just open the door"
+var allowedIn = 1 > 2
+var members = ["John", "George", "Penelope", "Mary"]
 
 // __________________________________________
 
