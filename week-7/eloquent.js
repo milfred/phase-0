@@ -79,6 +79,17 @@ while (counter <= 7) {
 }
 
 
+// Chapter 3
+// What are the differences between local and global variables in JavaScript?
+// Local variables are declared with the "var" keyword and can only be accessed inside of the function that contains them. Global variables are variables created outside of a function and can be accessed anywhere within the program as long as there isn't a local variable declared with the same name.
+
+// When should you use functions?
+
+
+// What is a function declaration?
+
+
+// Complete the minimum exercise in the eloquent.js file.
 
 
 
