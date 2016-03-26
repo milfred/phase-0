@@ -18,32 +18,39 @@
 
 // Initial Solution
 
-function separateComma(number) {
-  var numberString = number.toString();
-  var numberArray = numberString.split("");
-  var groups_of_three = numberString.length;
-  var arrayReverse = numberArray.reverse();
-  // return groups_of_three
-  if(numberString.length < 4)
-    return numberString;
-  else if(numberString.length % 3 == 0)
-    for (var i = 3; i < groups_of_three; i += 3){
-      arrayReverse.splice(arrayReverse[i], 0, ",");
-      return arrayReverse;
-    }
-  // var counter = 3;
-  // for(var i=0; i < counter; i++)
+// function separateComma(number) {
+//   var numberString = number.toString();
+//   var numberArray = numberString.split("");
+//   var groups_of_three = numberString.length;
+//   var arrayReverse = numberArray.reverse();
+//   // return groups_of_three
+//   if(numberString.length < 4)
+//     return numberString;
+//   else if(numberString.length % 3 == 0)
+//     for (var i = 3; i < groups_of_three; i += 3){
+//       arrayReverse.splice(arrayReverse[i], 0, ",");
+//       return arrayReverse;
+//     }
+//   // var counter = 3;
+//   // for(var i=0; i < counter; i++)
 
-}
-console.log(separateComma(123456789123))
+// }
+// console.log(separateComma(123456789123))
 
 
 
 // Refactored Solution
-// def separate_comma(number)
-//   comma_separated_number = number.to_s.reverse.split('').each_slice(3).map {|obj| obj.push(",") }.join.chop.reverse
-// end
 
+function commaSeparator(number) {
+  var reversedArray = number.toString().split("").reverse()
+  return reversedArray
+
+}
+
+
+
+
+console.log(separateComma(123456789123))
 
 // Your Own Tests (OPTIONAL)
 
