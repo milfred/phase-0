@@ -4,27 +4,36 @@
 
 // Program Structure
 // Write your own variable and do something to it.
-var cat_name = "Finn"
-console.log(cat_name, "is a great cat.")
 
-
-// prompt("What's your favorite food?")
-// alert("That's my favorite food too!")
-
+var cat_name = "Finn";
+console.log(cat_name, "says, \"I want to eat right meow!\"");
 
 // Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
 
-
+var counter = 1;
+while (counter <= 7) {
+  console.log("#".repeat(counter ++));
+}
 
 // Functions
 
 // Complete the `minimum` exercise.
 
+var min = function(x, y) {
+  return Math.min(x, y);
+}
 
+console.log(min(200, 8));
 
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
 
+var me = {
+  myName : "Jason Milfred",
+  myAge : 43,
+  myFavFoods : ["pizza", "shrimp", "murg makhani"],
+  myQuirk : "I once attended a school of cartoon art, because I wanted to draw comic books."
+};
 
 // Introduction
 // Did you learn anything new about JavaScript or programming in general?
@@ -69,16 +78,39 @@ console.log(cat_name, "is a great cat.")
 // What other similarities or differences between Ruby and JavaScript did you notice in this section?
 // The main thing for me is that most of the concepts are essentially the same. While loops, if/else statements, etc. For the most part, it's just the syntax that is different.
 
-// Complete at least one of the exercises (Looping a Triangle, FizzBuzz, of Chess Board) in the eloquent.js file.
 
-// Looping a triangle
+// Chapter 3
+// What are the differences between local and global variables in JavaScript?
+// Local variables are declared with the "var" keyword and can only be accessed inside of the function that contains them. Global variables are variables created outside of a function and can be accessed anywhere within the program as long as there isn't a local variable declared with the same name.
 
-var counter = 1
-while (counter <= 7) {
-  console.log("#".repeat(counter ++));
-}
+// When should you use functions?
+// There are many different reasons to use a function. You can use them to eliminate repetition, to isolate subprograms, and define new programming vocabulary that mirror actions.
+
+// What is a function declaration?
+// A function declaration is basically giving a name to some piece of code.
 
 
+// Chapter 4
+// What is the difference between using a dot and a bracket to look up a property? Ex. array.max vs array["max"]
+// Using the dot method is a bit easier to type if you know the name of the property and want to access it's value. However, if the name of the property is not a valid variable name (like "My Name", or 10), you have to use brackets. Also, if you want to use a variable that evaluates to the name of a property to access a value, you must use the method with brackets.
+
+// var object = { myName : "Jason"}
+// var x = "myName"
+// console.log(object[x])
+// => "Jason"
+// console.log(object.x)
+// => undefined
+
+// What is a JavaScript object with a name and value property similar to in Ruby?
+// It is similart to a hash in Ruby.
 
 
+// Reflection
+// What are the biggest similarities and differences between JavaScript and Ruby?
+// Many of the object types and concepts are the same or very similar in JavaScript and Ruby. The main differences seem syntax and JavaScript doesn't appear to have as many built in methods as Ruby. Also, Ruby seems like it might be a bit more rigid in what it will allow.
 
+// Was some of your Ruby knowledge solidified by learning another language? If so, which concepts?
+// The idea of functions and side effects is an helpful way to think about functions in JavaScript and can translate to Ruby methods as well.
+
+// How do you feel about diving into JavaScript after reading these chapters?
+// I was starting to get a good grasp on Ruby, so switching to JavaScript at that point felt like starting over to some degree. However, after some more practice I feel like the process of learning JavaScript won't be as difficult because I have the Ruby base to draw upon.
