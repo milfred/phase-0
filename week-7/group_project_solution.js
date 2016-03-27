@@ -23,14 +23,14 @@ function mean(numbers) {
 function median(number) {
   number.sort();
   var countedNumbers = number.length;
-    if(countedNumbers % 2 != 0) {
-      var index = Math.floor((countedNumbers / 2));
-      return number[index];
-    }
+  if(countedNumbers % 2 != 0) {
+    var index = Math.floor((countedNumbers / 2));
+    return number[index];
+  }
   else {
     var evenIndex = (countedNumbers / 2) - 1;
     var addedSlice = number.slice(evenIndex,evenIndex+2);
     console.log(addedSlice);
     return (addedSlice[0] + addedSlice[1]) / 2;
-    }
+  }
 }
