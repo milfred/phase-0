@@ -2,11 +2,11 @@
 
 // This is a solo challenge
 
-// Your mission description: White Knight vs. Black Knight
-// Overall mission: In the game, the user plays the White Knight. They must battle the Black Knight to save the kingdom.
-// Goals: Create two characters, the White Knight and the Black Knight. One function will be to attack the Black Knight. To do this, the user will roll a twenty-sided "die." If their roll is high enough, the attack is successful taking of one of the opponents limbs in this order: left arm, right arm, left leg, right leg. If a character has lost both of his arms, he can kick the other player, but a roll of 18 or higher will only result in one point of damage. If a knight only has one leg left, he may try to bump up against the other character with a roll of 18 or higher, but this will only serve to annoy the other character.
-// Characters: White Knight, Black Knight
-// Objects: White Knight, Black Knight
+// Your mission description: Good Knight vs. Very Bad Knight
+// Overall mission: In the game, the user plays the Good Knight. They must battle the Very Bad Knight to save the kingdom.
+// Goals: Create two characters, the Good Knight and the Very Bad Knight. One function will be to attack the Very Bad Knight. To do this, the user will roll a twenty-sided "die." If their roll is high enough, the attack is successful taking of one of the opponents limbs in this order: left arm, right arm, left leg, right leg. If a character has lost both of his arms, he can kick the other player, but a roll of 18 or higher will only result in one point of damage. If a knight only has one leg left, he may try to bump up against the other character with a roll of 18 or higher, but this will only serve to annoy the other character.
+// Characters: Good Knight, Very Bad Knight
+// Objects: Good Knight, Very Bad Knight
 // Functions: Roll a "die" to attack, remove limbs from opponent if attach is successful
 
 // Pseudocode
