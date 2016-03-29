@@ -100,12 +100,12 @@
 var goodKnight = {
   name: "Good Knight",
   hitPoints: 25,
-}
+};
 
 var badKnight = {
   name: "Very Bad Knight",
   hitPoints: 25,
-}
+};
 
 // Declare variables that will be changed
 var attacker = null;
@@ -115,7 +115,7 @@ var damage = 0;
 
 // Flips attacker/opponent roles every turn
 function turn() {
-  if (attacker == null) {
+  if (attacker === null) {
     attacker = goodKnight;
     opponent = badKnight;
   }
@@ -163,7 +163,7 @@ do {
   attack();
   alert("The " + attacker.name + " rolled " + rollResult + ".\n" + "The " + opponent.name + " took " + damage + " point(s) of damage.\n");
   if (opponent.hitPoints < 1) {
-    break
+    break;
   }
   else if (attacker == goodKnight) {
       alert("The " + opponent.name + " 's health is " + opponent.hitPoints + ". It's the Very Bad Knight's Turn.");
