@@ -70,4 +70,4 @@ console.log("Now you have " + allPez(superMario) + " pez!");
 // No. It's essentially the same logic.
 
 // Was your pseudocode different from the Ruby version? What was the same and what was different?
-// Again, no. It was pretty much the same since the logic was the same.
+// Again, no. It was basically the same since the logic was the same.
