@@ -189,3 +189,11 @@ test_board.check_rl_diag
 
 # Reflection
 
+# What concepts did you review in this challenge?
+# Accessing and iterating over multi-dimensional arrays and creating classes.
+
+# What is still confusing to you about Ruby?
+# I"m doing ok with the basics that we've covered in phase 0, but there are definitely concepts like recursion that I don't really have a handle on yet.
+
+# What are you going to study to get more prepared for Phase 1?
+# I'm doing some extra challenges from the Ruby Review section and working through some online tutorials.
